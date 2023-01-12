@@ -1,0 +1,67 @@
+* {-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    /* margin-bottom: 65px; */
+    padding: 0;
+    /* min-width: 576px; */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 160px;
+    background-color: darkgrey;
+}
+.links{
+    height: 120px;
+    background-color: aliceblue;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.opacity{
+    background-color: transparent;
+}
+
+.color{
+    background-color: rgb(49, 110, 179);
+}
+
+#header{
+    background-image: url("../img/header/conny-schneider-xuTJZ7uD7PI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 685px;
+    margin-top: -12%;
+    position: relative;
+}
+
+.container-header{
+    width: 80%;
+    position: absolute;
+    top:45%;
+    left:32%;
+    text-align: center;
+}
+
+#bio{
+    background-color: #ac8daf;
+    height: 478px;
+}
