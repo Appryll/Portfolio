@@ -16,52 +16,109 @@ body{
     /* min-width: 576px; */
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 160px;
-    background-color: darkgrey;
-}
-.links{
-    height: 120px;
-    background-color: aliceblue;
-}
-
-.a-footer{
-    text-decoration: none;
-    color: black;
-}
-
+/******** Navbar *********/
 .opacity{
     background-color: transparent;
 }
 
 .color{
-    background-color: rgb(49, 110, 179);
+    background-color: rgb(49, 110, 179, 0.8);
 }
 
+.navbar-brand>img {
+    padding: 15px; /* firefox bug fix */
+    width: 100px;
+    border-radius: 40%;
+}
+
+.nav-link{
+    font-family: 'Cinzel', serif;
+    font-size: 1.7vw;
+    color: #3B185F; 
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #380f3f;
+}
+
+/******** Header *********/
 #header{
     background-image: url("../img/header/conny-schneider-xuTJZ7uD7PI-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 685px;
+    height: 843px;
     margin-top: -12%;
     position: relative;
 }
 
 .container-header{
-    width: 80%;
+    width: 60%;
     position: absolute;
     top:45%;
-    left:32%;
+    left:35%;
     text-align: center;
 }
+.container-header>h1{
+    font-family: 'Moon Dance', cursive;
+    font-size: 7vw;
+    background-color: #3c185f76;
+    border-radius: 50%;
+}
 
+/******** Bio *********/
 #bio{
     background-color: #ac8daf;
-    height: 478px;
+    height: 650px;
+}
+
+#text-propos{
+    color: aliceblue;
+    font-size: 2.15vw;
+    font-family: 'Playfair Display', serif;
+    /* opacity: 0; */
+    /* font-family: 'Playfair Display', serif; */
+}
+
+#text-propos>a{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+#propos-img{
+    width: 15%;
+    border-radius: 45% 45% 45% 45%;
+    margin-top: 2%;
+    /* margin-left: -20%; */
+}
+
+/******** Footer *********/
+.footer {
+    text-align: center;
+    height: 200px;
+    background-color: darkgrey;
+}
+
+.copy-footer{
+    position: fixed;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    background-color: rgb(196, 193, 193);
+    height: 30px;
+    font-size: 1.25vw;
+}
+
+.copy-footer>a{
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    height: 180px;
+}
+
+.fa-envelope, .fa-telegram, .fa-twitter, .fa-linkedin, .fa-github {
+    font-size: 4vw;
 }
